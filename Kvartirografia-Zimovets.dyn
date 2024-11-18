@@ -1,0 +1,1266 @@
+{
+  "Uuid": "3c9d0464-8643-5ffe-96e5-ab1769818209",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Kvartirografia1",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [
+    {
+      "Id": "3788eeca8cf149338a3c9d8d07a6ca55",
+      "Name": "Categories",
+      "Type": "selection",
+      "Type2": "dropdownSelection",
+      "Value": "OST_Rooms",
+      "Description": "All built-in categories.",
+      "SelectedIndex": 497
+    }
+  ],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.SetParameterByName@string,var",
+      "Id": "e9ab2c50b4e940ad9c5462c91cd1a4be",
+      "Inputs": [
+        {
+          "Id": "041783f383354695b73849efb0924de0",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d390939c04704b4eb45836f6db87ad65",
+          "Name": "parameterName",
+          "Description": "The name of the parameter to set.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "df4fbdc763a14d97bfc5bf2c7914fe0a",
+          "Name": "value",
+          "Description": "The value.\n\nvar",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "4c05aaff60be42969f26fa29ac130277",
+          "Name": "Element",
+          "Description": "Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Set one of the element's parameters.\n\nElement.SetParameterByName (parameterName: string, value: var): Element"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.SetParameterByName@string,var",
+      "Id": "0baeafc311fa4bed96684bc4caa27c59",
+      "Inputs": [
+        {
+          "Id": "2a4516920306480ab54fbaa405832ebc",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "87da374f1d194c7796f44f20972a5046",
+          "Name": "parameterName",
+          "Description": "The name of the parameter to set.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "64584ac660d0403f8bf105a0a9f03ea1",
+          "Name": "value",
+          "Description": "The value.\n\nvar",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "e31c0bbe2621446a99dbcc253f999a78",
+          "Name": "Element",
+          "Description": "Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Set one of the element's parameters.\n\nElement.SetParameterByName (parameterName: string, value: var): Element"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.SetParameterByName@string,var",
+      "Id": "1bf6e1f1cff94b19ab72295c9dbcbb67",
+      "Inputs": [
+        {
+          "Id": "c4b08791b19341f588890761dd942168",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "304d6b1235c34ca48ac7db870aed907f",
+          "Name": "parameterName",
+          "Description": "The name of the parameter to set.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "13c5603a41ad451791ec06b46db9a6ae",
+          "Name": "value",
+          "Description": "The value.\n\nvar",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "fdc8769da9b646d6a71f699959eaa009",
+          "Name": "Element",
+          "Description": "Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Set one of the element's parameters.\n\nElement.SetParameterByName (parameterName: string, value: var): Element"
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.Categories, DSRevitNodesUI",
+      "SelectedIndex": 497,
+      "SelectedString": "OST_Rooms",
+      "NodeType": "ExtensionNode",
+      "Id": "3788eeca8cf149338a3c9d8d07a6ca55",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "04fd35892fe44841a2b154ac81b7fc2d",
+          "Name": "Category",
+          "Description": "Выбранная категория.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "All built-in categories."
+    },
+    {
+      "ConcreteType": "DSRevitNodesUI.ElementsOfCategory, DSRevitNodesUI",
+      "NodeType": "ExtensionNode",
+      "Id": "7ca871764fe049d9838a0324175c0b0c",
+      "Inputs": [
+        {
+          "Id": "09d4c8d459084685aafad434a835d014",
+          "Name": "Category",
+          "Description": "Категория",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "57cc9aed89a74eb986995fd495a930d0",
+          "Name": "Elements",
+          "Description": "Класс элемента.",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Get all elements of the specified category from the model."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "3a4f82d43b39480e9938a74695d8ec3e",
+      "Inputs": [
+        {
+          "Id": "d12bebf940604ff29f0436d4c881c424",
+          "Name": "",
+          "Description": "Узел для отображения выходных данных",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "b718d1e79a7040f384ec15328bb793b4",
+          "Name": "",
+          "Description": "Выходные данные узла",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualize the node's output"
+    },
+    {
+      "ConcreteType": "PythonNodeModels.PythonNode, PythonNodeModels",
+      "NodeType": "PythonScriptNode",
+      "Code": "import clr\r\n\r\n# Инициализация массивов для хранения данных\r\napartIndexes = []  # Массив индексов квартир (номер + этаж)\r\naparts = []  # Массив данных по квартирам: [количество жилых комнат, общая площадь с коэффициентом, жилая площадь, общая площадь, общее количество помещений]\r\nroomsAreaCoeff = []\r\nroomsAreaMultipliedByCoeff = []\r\nroomsArea = []\r\noutRooms = []  # Список комнат для вывода\r\n\r\n# Входные данные\r\nrooms = IN[0]  # Список комнат\r\nparAptNumber = IN[1] if len(IN) > 1 else []  # Номер квартиры (ADSK_Номер квартиры)\r\nparAptFloor = IN[2] if len(IN) > 2 else []  # Этаж квартиры (ADSK_Этаж)\r\nparAptTip = IN[3] if len(IN) > 3 else []  # Тип помещения\r\nroundCount = IN[4] if len(IN) > 4 else 2  # Округление площади\r\n\r\n# Проверка входных данных\r\nif not rooms or not parAptNumber or not parAptTip or not parAptFloor:\r\n    raise ValueError(\"Входные данные некорректны или отсутствуют\")\r\n\r\n# Перебор комнат для подсчёта общей и жилой площади на каждую квартиру\r\nfor i, room in enumerate(rooms): \r\n    try:\r\n        uroom = UnwrapElement(room)  # Получаем элемент комнаты из Revit\r\n        if i >= len(parAptNumber) or i >= len(parAptTip) or i >= len(parAptFloor):\r\n            print(f\"Пропуск комнаты {i}: отсутствуют данные для номера квартиры, типа помещения или этажа\")\r\n            continue\r\n\r\n        aptNum = parAptNumber[i]  # Номер квартиры\r\n        aptFloor = parAptFloor[i]  # Этаж квартиры\r\n        room_type = parAptTip[i]  # Тип помещения\r\n        aptIndex = f\"{aptNum}_{aptFloor}\"  # Уникальный индекс для квартиры (номер + этаж)\r\n        \r\n        area = round(uroom.Area * 0.09290304, roundCount) if uroom.Area else 0  # Площадь комнаты\r\n        koeff = 1  # Начальное значение коэффициента\r\n\r\n        # Применение коэффициента в зависимости от типа помещения\r\n        if room_type == 5:  # Общее помещение\r\n            koeff = 0\r\n        elif room_type == 3:  # Лоджия\r\n            koeff = 0.5\r\n        elif room_type == 4:  # Балкон\r\n            koeff = 0.3\r\n        \r\n        karea = round(koeff * area, roundCount)  # Площадь комнаты с коэффициентом\r\n        \r\n        # Проверка, есть ли квартира с таким индексом в списке\r\n        if aptIndex in apartIndexes:\r\n            index = apartIndexes.index(aptIndex)  # Индекс квартиры\r\n            if room_type == 1:  # Жилое помещение\r\n                aparts[index][0] += 1  # Увеличиваем количество жилых комнат\r\n                aparts[index][2] += area  # Добавляем к жилой площади\r\n            aparts[index][1] += karea  # Добавляем площадь с коэффициентом к общей площади квартиры\r\n            aparts[index][3] += area  # Добавляем к общей площади квартиры\r\n            aparts[index][4] += 1  # Увеличиваем общее количество помещений\r\n        else:\r\n            # Добавляем новую запись для квартиры\r\n            apartIndexes.append(aptIndex)\r\n            aptRoomsCount = 1 if room_type == 1 else 0  # Если тип помещения \"Жилое\", количество комнат = 1\r\n            uarea = area if room_type == 1 else 0  # Если тип помещения \"Жилое\", жилая площадь = area\r\n            apartarea = area  # Общая площадь квартиры (для всех типов)\r\n            totalRoomsCount = 1  # Начальное количество помещений\r\n            aparts.append([aptRoomsCount, karea, uarea, apartarea, totalRoomsCount])  # Добавляем квартиру в список\r\n            \r\n        # Добавление значений коэффициента и площади\r\n        roomsAreaCoeff.append(koeff)\r\n        roomsAreaMultipliedByCoeff.append(karea)\r\n        roomsArea.append(area)\r\n    except Exception as e:\r\n        print(f\"Ошибка при обработке комнаты {i}: {e}\")\r\n\r\n# Формирование выходных данных для каждой комнаты\r\nfor i, room in enumerate(rooms):\r\n    try:\r\n        uroom = UnwrapElement(room)\r\n        if i >= len(parAptNumber) or i >= len(parAptTip) or i >= len(parAptFloor):\r\n            print(f\"Пропуск комнаты {i}: отсутствуют данные для номера квартиры, типа помещения или этажа\")\r\n            continue\r\n        \r\n        aptNum = parAptNumber[i]\r\n        aptFloor = parAptFloor[i]\r\n        aptIndex = f\"{aptNum}_{aptFloor}\"  # Уникальный индекс квартиры\r\n        aptPos = apartIndexes.index(aptIndex) if aptIndex in apartIndexes else -1\r\n        if aptPos > -1 and uroom.Area: \r\n            apt = aparts[aptPos]  # Данные по квартире\r\n            outRooms.append([\r\n                room,\r\n                f\"{aptNum}_{str(parAptTip[i])}\",  # Категория\r\n                apt[0],  # Количество жилых комнат\r\n                apt[1],  # Общая площадь квартиры с коэффициентом\r\n                apt[2],  # Жилая площадь квартиры\r\n                apt[3],  # Общая площадь квартиры\r\n                apt[4],  # Общее количество помещений\r\n                roomsAreaCoeff[i],  # Коэффициент площади комнаты\r\n                roomsAreaMultipliedByCoeff[i],  # Площадь комнаты с коэффициентом\r\n                roomsArea[i]  # Площадь комнаты\r\n            ])\r\n    except Exception as e:\r\n        print(f\"Ошибка при формировании выходных данных для комнаты {i}: {e}\")\r\n\r\nOUT = outRooms\r\n# На выходе 9 списков:\r\n# l[0] - комнаты\r\n# l[1] - Категория\r\n# l[2] - Количество жилых комнат\r\n# l[3] - Общая площадь квартиры с коэффициентом\r\n# l[4] - Жилая площадь квартиры\r\n# l[5] - Общая площадь квартиры\r\n# l[6] - Общее количество помещений\r\n# l[7] - Коэффициент площади комнаты\r\n# l[8] - Площадь комнаты, умноженная на коэффициент\r\n\r\n",
+      "Engine": "CPython3",
+      "EngineName": "CPython3",
+      "VariableInputPorts": true,
+      "Id": "eaff34f273a44d6ea2550a8a6d098e9b",
+      "Inputs": [
+        {
+          "Id": "77b6b5c14b22477997f989645f51ed0f",
+          "Name": "IN[0]",
+          "Description": "Input #0",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "10338c6e6be74a06a4b45bc7c45896eb",
+          "Name": "IN[1]",
+          "Description": "Input #1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "33175e55eaf14d1292a0354cb72e543b",
+          "Name": "IN[2]",
+          "Description": "Input #2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "75a64502383e4adcac22535124b46e97",
+          "Name": "IN[3]",
+          "Description": "Input #3",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "e5d0fcaf62ec44c78f8bf50b2dd4ee19",
+          "Name": "IN[4]",
+          "Description": "Input #4",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "526ac5f62a004f26851cfff1a886161e",
+          "Name": "OUT",
+          "Description": "Результат сценария Python",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Runs an embedded Python script."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"ADSK_Номер квартиры\";\n\"ADSK_Тип помещения\";\n\"ADSK_Этаж\";",
+      "Id": "00ee70e9011545cca55301d786ea0d4b",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "4011181012cd402e924c97dfa3f01556",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "e720495b1c2c49fc88228fbc0b29be4e",
+          "Name": "",
+          "Description": "Value of expression at line 2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "8226b08a452e4a7c9efeb19abde31efb",
+          "Name": "",
+          "Description": "Value of expression at line 3",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "DSCore.List.Transpose@var[]..[]",
+      "Id": "af57443a15ac415d875e1126e1a0bb5b",
+      "Inputs": [
+        {
+          "Id": "9fb4a2b11a444886baec7437774f2b14",
+          "Name": "lists",
+          "Description": "List of lists to be transposed\n\nvar[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "0cdac8786acb4b8a9ea67360e2be9506",
+          "Name": "lists",
+          "Description": "List of transposed lists",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Swaps rows and columns in a list of lists. If there are some rows that are shorter than others, null values are inserted as place holders in the resultant array such that it is always rectangular.\n\nList.Transpose (lists: var[]..[]): var[]..[]"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "0797f82880954766b804e901a0fa9e85",
+      "Inputs": [
+        {
+          "Id": "01bcde3f271a4dec9768c14e47fe7d59",
+          "Name": "",
+          "Description": "Узел для отображения выходных данных",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "566aba2a343e484489ef478a005558bf",
+          "Name": "",
+          "Description": "Выходные данные узла",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualize the node's output"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "l[0];\nl[1];\nl[2];\nl[3];\nl[4];\nl[5];\nl[6];\nl[7];\nl[8];",
+      "Id": "9ef2f6f1c4a34d98813f66d626a7c7f9",
+      "Inputs": [
+        {
+          "Id": "6fc9efb8fcbe4d46a179be3634654b04",
+          "Name": "l",
+          "Description": "l",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "483ae9f31af34b13b97e3e97f2b65cda",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f534078d4ebf41bcabebc9f5cc9e6ea4",
+          "Name": "",
+          "Description": "Value of expression at line 2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "4106b2fd15ce4dc98920017eb13cdcb3",
+          "Name": "",
+          "Description": "Value of expression at line 3",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "e7a1f0d153704b72a0aec677eb9f2e80",
+          "Name": "",
+          "Description": "Value of expression at line 4",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "25e8870f9b3e4f77b74a2bd2d12385d7",
+          "Name": "",
+          "Description": "Value of expression at line 5",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d671fbb9d05d44b397abb3bafa9d7ee4",
+          "Name": "",
+          "Description": "Value of expression at line 6",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "7525f9c41c404e63b255f089e4096604",
+          "Name": "",
+          "Description": "Value of expression at line 7",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "eab71225a6594daa890fec08ed21b600",
+          "Name": "",
+          "Description": "Value of expression at line 8",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d343c96681b54159b54b0a13310b4b40",
+          "Name": "",
+          "Description": "Value of expression at line 9",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"ADSK_Номер квартиры\";\n\"ADSK_Количество комнат\";\n\"ADSK_Площадь с коэффициентом\";\n\"ADSK_Площадь квартиры жилая\";\n\"ADSK_Площадь квартиры общая\";",
+      "Id": "21a24e1031f64c1891418e937d7d9a6e",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "cfdc2b8a8ce3440da839e9261774cfa5",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "9452a4c5b7a34def9dccaaff9e47b823",
+          "Name": "",
+          "Description": "Value of expression at line 2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "a4b241e92b4e48ef95ed1ea74cb5be80",
+          "Name": "",
+          "Description": "Value of expression at line 3",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "f9ea7c4deae84ea1b88205e352ca4640",
+          "Name": "",
+          "Description": "Value of expression at line 4",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "75775d6cbaaf48ceadca7344f460949c",
+          "Name": "",
+          "Description": "Value of expression at line 5",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "2;",
+      "Id": "c9421189c8154e059912035d71eeeb8f",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "8051686af5ec4f5085c000306af74873",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.SetParameterByName@string,var",
+      "Id": "16e0ad54a264488c936b227d8f6007f2",
+      "Inputs": [
+        {
+          "Id": "04898d5440114f3ba830003f36a310b2",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "d907a8f3b52643259a40dd2410406f43",
+          "Name": "parameterName",
+          "Description": "The name of the parameter to set.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "7d4179108db74e7391a4733bc3cc4aef",
+          "Name": "value",
+          "Description": "The value.\n\nvar",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "259353b416d747f89290494a916be8cb",
+          "Name": "Element",
+          "Description": "Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Set one of the element's parameters.\n\nElement.SetParameterByName (parameterName: string, value: var): Element"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetParameterValueByName@string",
+      "Id": "2631509ba67d4288a7c147f5abd00b48",
+      "Inputs": [
+        {
+          "Id": "48600111d4a646eeb48f161c1cc9a639",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "85a3c7a17bd44813977b5ca5c511b602",
+          "Name": "parameterName",
+          "Description": "The name of the parameter whose value you want to obtain.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "4bf5c98d3ed141e7ac1dfc6c03836ec2",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get the value of one of the element's parameters.\n\nElement.GetParameterValueByName (parameterName: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetParameterValueByName@string",
+      "Id": "8f175f0efa994c689e58c77698e927e4",
+      "Inputs": [
+        {
+          "Id": "afaabf80e77c4f40bf78fe932fb6ecf6",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "1300ca164d204b9ba2578f62acfe3f00",
+          "Name": "parameterName",
+          "Description": "The name of the parameter whose value you want to obtain.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "611e5b74917a45d093aaeec30164d95c",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get the value of one of the element's parameters.\n\nElement.GetParameterValueByName (parameterName: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Revit.Elements.Element.GetParameterValueByName@string",
+      "Id": "6dc239eff99747699a6af6da7420828a",
+      "Inputs": [
+        {
+          "Id": "64a921edb43643259ee575f747482eed",
+          "Name": "element",
+          "Description": "Revit.Elements.Element",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "3aecaa15cbbc4c3e817847606b7390de",
+          "Name": "parameterName",
+          "Description": "The name of the parameter whose value you want to obtain.\n\nstring",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "926e18ec627c486a8c728eaba5fee205",
+          "Name": "var[]..[]",
+          "Description": "var[]..[]",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Get the value of one of the element's parameters.\n\nElement.GetParameterValueByName (parameterName: string): var[]..[]"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "",
+      "Id": "48e475125eb942dc81f4fbb55d789a5f",
+      "Inputs": [],
+      "Outputs": [],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "04fd35892fe44841a2b154ac81b7fc2d",
+      "End": "09d4c8d459084685aafad434a835d014",
+      "Id": "2884cb02abb648ecb4f23a5a1477d341",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "57cc9aed89a74eb986995fd495a930d0",
+      "End": "d12bebf940604ff29f0436d4c881c424",
+      "Id": "a4500a136d5a4fad9cf758b71e7eb044",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "b718d1e79a7040f384ec15328bb793b4",
+      "End": "48600111d4a646eeb48f161c1cc9a639",
+      "Id": "300a343bb1684dd2b2f5e0f21d5b7af9",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "b718d1e79a7040f384ec15328bb793b4",
+      "End": "afaabf80e77c4f40bf78fe932fb6ecf6",
+      "Id": "42baeb50d7c949e08d28ec49ca4f4414",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "b718d1e79a7040f384ec15328bb793b4",
+      "End": "64a921edb43643259ee575f747482eed",
+      "Id": "87265226f7814eb3b71d270d8238345a",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "b718d1e79a7040f384ec15328bb793b4",
+      "End": "77b6b5c14b22477997f989645f51ed0f",
+      "Id": "a5f8c8cc69054ccc94b5495c0171d895",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "526ac5f62a004f26851cfff1a886161e",
+      "End": "9fb4a2b11a444886baec7437774f2b14",
+      "Id": "835e0a8b0c8f4e9988fb254029750a81",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "4011181012cd402e924c97dfa3f01556",
+      "End": "85a3c7a17bd44813977b5ca5c511b602",
+      "Id": "b1f91c5244324e9d866c8f84ea6007cd",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "e720495b1c2c49fc88228fbc0b29be4e",
+      "End": "1300ca164d204b9ba2578f62acfe3f00",
+      "Id": "d16379608a2f45a484b8ef4b8654b514",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "8226b08a452e4a7c9efeb19abde31efb",
+      "End": "3aecaa15cbbc4c3e817847606b7390de",
+      "Id": "768d9bca979848c4bd537e13c7d45db8",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "0cdac8786acb4b8a9ea67360e2be9506",
+      "End": "01bcde3f271a4dec9768c14e47fe7d59",
+      "Id": "3c3f33204dac4a0595caee1a49343fbe",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "566aba2a343e484489ef478a005558bf",
+      "End": "6fc9efb8fcbe4d46a179be3634654b04",
+      "Id": "920a64e062824cffb03db08ac8996d56",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "483ae9f31af34b13b97e3e97f2b65cda",
+      "End": "c4b08791b19341f588890761dd942168",
+      "Id": "75363d39123e414ca53f4204838b16dd",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "483ae9f31af34b13b97e3e97f2b65cda",
+      "End": "04898d5440114f3ba830003f36a310b2",
+      "Id": "11cb334483fe454b8c5cc7ee133d369f",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "483ae9f31af34b13b97e3e97f2b65cda",
+      "End": "041783f383354695b73849efb0924de0",
+      "Id": "ef5811bbafb74537916a0f9c4debec17",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "483ae9f31af34b13b97e3e97f2b65cda",
+      "End": "2a4516920306480ab54fbaa405832ebc",
+      "Id": "eada85546d3f49498fde5790dd096499",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "4106b2fd15ce4dc98920017eb13cdcb3",
+      "End": "13c5603a41ad451791ec06b46db9a6ae",
+      "Id": "5d729ad38943455b8b9db3070e534cec",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "e7a1f0d153704b72a0aec677eb9f2e80",
+      "End": "64584ac660d0403f8bf105a0a9f03ea1",
+      "Id": "0a85d6f59a934b0ab83f5acc642f24f8",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "25e8870f9b3e4f77b74a2bd2d12385d7",
+      "End": "df4fbdc763a14d97bfc5bf2c7914fe0a",
+      "Id": "afd5d7cbfbe54b2ab6d95a20a606340f",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "d671fbb9d05d44b397abb3bafa9d7ee4",
+      "End": "7d4179108db74e7391a4733bc3cc4aef",
+      "Id": "9abf636ccbb34ca3840f3039b92fe85e",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "9452a4c5b7a34def9dccaaff9e47b823",
+      "End": "304d6b1235c34ca48ac7db870aed907f",
+      "Id": "36df76e414e744f79383441a90da2eed",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "a4b241e92b4e48ef95ed1ea74cb5be80",
+      "End": "87da374f1d194c7796f44f20972a5046",
+      "Id": "358343c27c414f158cdbc389533b141a",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "f9ea7c4deae84ea1b88205e352ca4640",
+      "End": "d390939c04704b4eb45836f6db87ad65",
+      "Id": "a15e900af9ef4ef092061c008bbba909",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "75775d6cbaaf48ceadca7344f460949c",
+      "End": "d907a8f3b52643259a40dd2410406f43",
+      "Id": "d9e98f5897044b43bb978dfdf128ee84",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "8051686af5ec4f5085c000306af74873",
+      "End": "e5d0fcaf62ec44c78f8bf50b2dd4ee19",
+      "Id": "fb21771faa3949908e66312befad8aaf",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "4bf5c98d3ed141e7ac1dfc6c03836ec2",
+      "End": "10338c6e6be74a06a4b45bc7c45896eb",
+      "Id": "482c015ea9ca4359b95b540dd7202163",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "611e5b74917a45d093aaeec30164d95c",
+      "End": "75a64502383e4adcac22535124b46e97",
+      "Id": "bdaf1120ad604a08b1636e017dcc5a69",
+      "IsHidden": "False"
+    },
+    {
+      "Start": "926e18ec627c486a8c728eaba5fee205",
+      "End": "33175e55eaf14d1292a0354cb72e543b",
+      "Id": "68267be209fd4fae990987ec7bc7483d",
+      "IsHidden": "False"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Свойства",
+      "Version": "2.16",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "3.0",
+      "Data": {}
+    }
+  ],
+  "Author": "None provided",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.16.4.10216",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -17.0,
+      "EyeY": 24.0,
+      "EyeZ": 50.0,
+      "LookX": 12.0,
+      "LookY": -13.0,
+      "LookZ": -58.0,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "ConnectorPins": [],
+    "NodeViews": [
+      {
+        "Name": "SetParameter - ADSK_Площадь квартиры жилая",
+        "ShowGeometry": true,
+        "Id": "e9ab2c50b4e940ad9c5462c91cd1a4be",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3240.1777744309561,
+        "Y": 1990.8152359438006
+      },
+      {
+        "Name": "SetParameter - ADSK_Площадь с коэффициентом",
+        "ShowGeometry": true,
+        "Id": "0baeafc311fa4bed96684bc4caa27c59",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3261.2237431332605,
+        "Y": 1689.2592214688193
+      },
+      {
+        "Name": "SetParameter - ADSK_Количество комнат",
+        "ShowGeometry": true,
+        "Id": "1bf6e1f1cff94b19ab72295c9dbcbb67",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3251.6090471778339,
+        "Y": 1428.7191850185677
+      },
+      {
+        "Name": "Categories",
+        "ShowGeometry": true,
+        "Id": "3788eeca8cf149338a3c9d8d07a6ca55",
+        "IsSetAsInput": true,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -180.82856750659613,
+        "Y": 2692.9819886368423
+      },
+      {
+        "Name": "All Elements of Category-Получение элементов из модели",
+        "ShowGeometry": true,
+        "Id": "7ca871764fe049d9838a0324175c0b0c",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 134.4614544568376,
+        "Y": 2693.0422053031489
+      },
+      {
+        "Name": "Watch - Проверка l[0]",
+        "ShowGeometry": true,
+        "Id": "3a4f82d43b39480e9938a74695d8ec3e",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 705.36702550519317,
+        "Y": 2694.1422172428115
+      },
+      {
+        "Name": "Python Script-Основной расчет ",
+        "ShowGeometry": true,
+        "Id": "eaff34f273a44d6ea2550a8a6d098e9b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1229.515548557393,
+        "Y": 2687.7071624462419
+      },
+      {
+        "Name": "Code Block - Основные параметры",
+        "ShowGeometry": true,
+        "Id": "00ee70e9011545cca55301d786ea0d4b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 204.91134103434297,
+        "Y": 1992.2174745429979
+      },
+      {
+        "Name": "List.Transpose-Обработка данных",
+        "ShowGeometry": true,
+        "Id": "af57443a15ac415d875e1126e1a0bb5b",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1597.0227249704819,
+        "Y": 2688.1173389552487
+      },
+      {
+        "Name": "Watch - Проверка l[0]",
+        "ShowGeometry": true,
+        "Id": "0797f82880954766b804e901a0fa9e85",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 1979.1891330175513,
+        "Y": 2687.6527212336564
+      },
+      {
+        "Name": "Code Block - Список на выходе",
+        "ShowGeometry": true,
+        "Id": "9ef2f6f1c4a34d98813f66d626a7c7f9",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2362.4259762108009,
+        "Y": 2679.7014403087446
+      },
+      {
+        "Name": "Parameters - Список для записи",
+        "ShowGeometry": true,
+        "Id": "21a24e1031f64c1891418e937d7d9a6e",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2428.7160636176454,
+        "Y": 1758.22652522137
+      },
+      {
+        "Name": "Округлить до _ знаков",
+        "ShowGeometry": true,
+        "Id": "c9421189c8154e059912035d71eeeb8f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 732.719818358433,
+        "Y": 3033.4354170878382
+      },
+      {
+        "Name": "SetParameter - ADSK_Площадь квартиры общая",
+        "ShowGeometry": true,
+        "Id": "16e0ad54a264488c936b227d8f6007f2",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 3237.2549908947467,
+        "Y": 2292.9959323827088
+      },
+      {
+        "Name": "GetParameter - ADSK_Номер квартиры",
+        "ShowGeometry": true,
+        "Id": "2631509ba67d4288a7c147f5abd00b48",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 883.34309941729191,
+        "Y": 1881.8898759277472
+      },
+      {
+        "Name": "GetParameter - ADSK_Тип помещения",
+        "ShowGeometry": true,
+        "Id": "8f175f0efa994c689e58c77698e927e4",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 887.61465271464749,
+        "Y": 2225.3423623855351
+      },
+      {
+        "Name": "GetParameter - ADSK_Этаж",
+        "ShowGeometry": true,
+        "Id": "6dc239eff99747699a6af6da7420828a",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 889.86479518436238,
+        "Y": 2052.975044677703
+      },
+      {
+        "Name": "Code Block",
+        "ShowGeometry": true,
+        "Id": "48e475125eb942dc81f4fbb55d789a5f",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 2442.0,
+        "Y": 3119.0
+      }
+    ],
+    "Annotations": [
+      {
+        "Id": "0fd137dd59784aef99a832b4bdeb505a",
+        "Title": "l[0] - комнаты:\n\nОписание: Формируется список всех помещений (rooms), обработанных в скрипте. Каждое помещение представлено в формате room.\nПараметр для записи: Не требуется, это просто список элементов.\n\nl[1] - Категория (номер квартиры + тип помещения):\n\nОписание: Категория для каждой комнаты формируется как строка, объединяющая номер квартиры (ADSK_Номер квартиры) и тип помещения (ADSK_Тип помещения).\nПараметр для записи: Не требуется, используется для внутренней логики.\n\nl[2] - Номер квартиры:\n\nОписание: Это номер квартиры (aptNum), извлекаемый из параметра ADSK_Номер квартиры.\nПараметр для записи: Не требуется, это значение берётся из параметра ADSK_Номер квартиры в Revit.\n\nl[3] - Общая площадь квартиры с коэффициентом \"ADSK_Площадь с коэффициентом\":\n\nОписание: Общая площадь квартиры с применением коэффициентов.\nПараметр для записи: ADSK_Площадь с коэффициентом.\n\nl[4] - Жилая площадь квартиры \"ADSK_Площадь квартиры жилая\":\n\nОписание: Жилая площадь вычисляется только для жилых помещений (тип 1).\nПараметр для записи: ADSK_Площадь квартиры жилая.\n\nl[5] - Общая площадь квартиры \"ADSK_Площадь квартиры общая\":\n\nОписание: Общая площадь всех помещений, включая жилые и нежилые.\nПараметр для записи: ADSK_Площадь квартиры общая.\n\nl[6] - Коэффициент площади комнаты:\n\nОписание: Коэффициент площади комнаты в зависимости от её типа:\nТип 5: 0 (общее помещение),\nТип 3: 0.5 (лоджия),\nТип 4: 0.3 (балкон),\nДругие: 1.\nПараметр для записи: Не требуется, коэффициент вычисляется в скрипте и используется для расчётов.\n\nl[7] - Площадь комнаты, умноженная на коэффициент:\n\nОписание: Результат умножения площади комнаты на её коэффициент.\nПараметр для записи: Не требуется, коэффициент вычисляется в скрипте и используется для расчётов.\n",
+        "DescriptionText": null,
+        "IsExpanded": true,
+        "WidthAdjustment": 0.0,
+        "HeightAdjustment": 0.0,
+        "Nodes": [],
+        "HasNestedGroups": false,
+        "Left": 1251.642747402326,
+        "Top": 2997.2695752363425,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "63ccaadca6ce4af29b6881b76efa71c8",
+        "Title": "ADSK_Номер квартиры",
+        "DescriptionText": null,
+        "IsExpanded": true,
+        "WidthAdjustment": 0.0,
+        "HeightAdjustment": 0.0,
+        "Nodes": [],
+        "HasNestedGroups": false,
+        "Left": 1467.7760088108585,
+        "Top": 1906.2902169722026,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "83453554c9484b42b96ec37c5cd5ac7e",
+        "Title": "ADSK_Тип помещения",
+        "DescriptionText": null,
+        "IsExpanded": true,
+        "WidthAdjustment": 0.0,
+        "HeightAdjustment": 0.0,
+        "Nodes": [],
+        "HasNestedGroups": false,
+        "Left": 1478.5012709806824,
+        "Top": 2274.1099278727979,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "22df3fc7cc0c46c1996d15263f7438c0",
+        "Title": "ADSK_Этаж",
+        "DescriptionText": null,
+        "IsExpanded": true,
+        "WidthAdjustment": 0.0,
+        "HeightAdjustment": 0.0,
+        "Nodes": [],
+        "HasNestedGroups": false,
+        "Left": 1499.4217088622361,
+        "Top": 2120.9528076994952,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "0e32503a84a44f30bb1feb7304337cbf",
+        "Title": "# На выходе 9 списков:\r\n# l[0] - комнаты\r\n# l[1] - Категория\r\n# l[2] - Количество жилых комнат\r\n# l[3] - Общая площадь квартиры с коэффициентом\r\n# l[4] - Жилая площадь квартиры\r\n# l[5] - Общая площадь квартиры\r\n# l[6] - Общее количество помещений\r\n# l[7] - Коэффициент площади комнаты\r\n# l[8] - Площадь комнаты, умноженная на коэффициент",
+        "DescriptionText": null,
+        "IsExpanded": true,
+        "WidthAdjustment": 0.0,
+        "HeightAdjustment": 0.0,
+        "Nodes": [],
+        "HasNestedGroups": false,
+        "Left": 1969.3002262803952,
+        "Top": 3010.0437867392834,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": 206.39700745783438,
+    "Y": -87.541582504297423,
+    "Zoom": 0.15933388169515172
+  }
+}
